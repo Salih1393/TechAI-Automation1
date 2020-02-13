@@ -1,0 +1,40 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Log In to application",
+        "description": "",
+        "id": "log-in-page-test;log-in-to-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2859326100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User logs in the account",
+            "match": {
+              "location": "_1_login.user_logs_in_the_account()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "name": "Log in page test",
+    "description": "",
+    "id": "log-in-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
